@@ -7,11 +7,17 @@ Looking into two products I listed on eBay (Product A and Product B), I compare 
 The objective is to understand how modifications to product listings, pricing and sales activity influence customer engagement and listing performance.
 
 Using PostgreSQL and SQL, I collected, organised and analysed listing data to identify patterns in views, watchers and sales. The results were then visualised using Power BI to make comparisons between the two products and identify potential trends.
+
 ### 2. Business Questions
-* Which product generates more customer interest?
-* How does customer engagement change when prices change?
-* When are customers most interested?
-* What changes are followed by increase in customer engagement?
+
+1. Which product generates the highest number of views?
+2. Which product has the highest engagement rate?
+3. How do views and watchers change following listing modifications?
+4. Are price reductions associated with increased views?
+5. Are certain days of the week associated with higher traffic?
+6. Is sales activity associated with changes in listing views?
+7. Which listing modifications show the most promising results?
+
 
 ### 3. Tools & Technologies
 **PostgreSQL :**   Data storage & management
@@ -58,9 +64,11 @@ Both were used interwindingly to investigate relationships between listing modif
 * Calculating average views and watchers by weekday.
 * Comparing Product A and Product B.
 * Calculating customer engagement using watchers relative to views.
-* Identifying listing modificationsand measuring performance before and after changes.
+* Identifying listing modifications and measuring performance before and after changes.
 * Comparing average views and watchers over seven-day periods before and after modifications.
 * Evaluating engagement changes following sales.
+* Calculating watcher-to-view engagement rate:
+  (Total Watchers / Total Views) * 100.
 
 The analysis uses PostgreSQL queries to transform the raw data into datasets suitable for visualisation.
 
@@ -78,13 +86,13 @@ The dashboard focuses on:
 * Relationship between listing changes and customer engagement 
 
 ### Dashboard preview
-![Dashboard](assets/dashboard.jpg)
-![Dashboard2](assets/dashboard2.jpg)
-![Dashboard3](assets/dashboard3.jpg)
-![Dashboard4](assets/dashboard4.jpg)
-![Dashboard5](assets/dashboard5.jpg)
+![Dashboard Overview](assets/dashboard.jpg)
+![Dashboard2 Customer Interest](assets/dashboard2.jpg)
+![Dashboard3 Listing Price and Views](assets/dashboard3.jpg)
+![Dashboard4 When are customers interested](assets/dashboard4.jpg)
+![Dashboard5 Views after modification](assets/dashboard5.jpg)
 
-## 7 Key Findings
+## 7. Key Findings
 
 * Product A generated higher overall traffic and watcher volume. However, Product B achieved a higher watcher-to-view ratio, suggesting stronger relative engagement despite receiving fewer views.
 
@@ -95,15 +103,27 @@ The dashboard focuses on:
 * Overall changes were an impact on views. Making some sort of change seemed to increase average views even if slightly. The biggest factors were price change and sales. After the first sale views shot up and it brought in the most views recorded in a single day, 11 views.
 
 ### 8. Limitations & Future Improvements
-Limitations:
 
-* Dataset only includes 2 products.
-* Data set was only recorded over a span of roughly a month.
-* Limited number of sales. Larger dataset = Higher accuracy.
-* Changes in views and watchers could be influenced by external factors not listed.
-* Product B was listed after product A so less information was gathered over a period of time.
+### Limitations
 
-Future improvements:
+- The analysis is based on two eBay product listings,
+  so the findings may not represent wider marketplace
+  behaviour.
+- The observation period is relatively short.
+- The limited number of sales restricts the ability
+  to identify reliable relationships between sales
+  and listing traffic.
+- Product A and Product B have different listing
+  histories, which may affect comparisons.
+- Changes in views and watchers may be influenced
+  by external factors beyond listing modifications.
+
+Further data collection across a longer period and
+a larger number of products would help validate
+the findings.
+
+
+### Future improvements:
 
 * Collect data over a longer period
 * Add additional products
@@ -115,7 +135,7 @@ This project demonstrates the use of SQL and Power BI to investigate e-commerce 
 By combining daily performance records with listing modification data, the project explores how changes in pricing, listing activity and sales relate to customer engagement.
 
 It also demonstrates the process of collecting, structuring, analysing and visualising data to support data-driven decision-making.
-### Folder Description
+## Folder Description
 * **analysis/**   -   General exploratory analysis
 * **assets/**   - Dashboard screenshots and project images
 * **modification_impact/** - SQL analysing listing changes
@@ -123,4 +143,70 @@ It also demonstrates the process of collecting, structuring, analysing and visua
 * **sales_analysis/**  -  Sales-related analysis
 * **sql_load/**   -  Data loading and preparation
 
+
+## Dataset and Metrics
+
+### Daily Performance
+
+The daily performance dataset records the activity
+of two eBay product listings, Product A and Product B.
+
+It includes:
+- Date
+- Product
+- Views
+- Watchers
+- Listing price
+- Sales
+
+### Listing Changes
+
+The listing changes dataset records modifications
+made to each product listing.
+
+It includes:
+- Modification date
+- Product
+- Modification type
+- Description of the modification
+
+### Key Metrics
+
+| Metric | Calculation |
+|---|---|
+| Total Views | Sum of daily views |
+| Total Watchers | Sum of daily watcher observations, if daily counts |
+| Total Sales | Sum of recorded daily sales |
+| Engagement Rate | Watchers / Views × 100 |
+| Average Views | Total views / number of observations |
+
+
+## SQL Analysis
+
+The project uses PostgreSQL to investigate
+product performance, customer engagement
+and listing optimisation.
+
+| Analysis | Description |
+|---|---|
+| Product Comparison | Compares views, watchers and sales |
+| Engagement Analysis | Calculates product engagement rates |
+| Modification Impact | Compares performance before and after changes |
+| Performance Trends | Investigates weekday performance |
+| Sales Analysis | Examines views around recorded sales |
+| Data Import | Loads CSV data into PostgreSQL |
+
+### SQL Files
+
+- [Product Analysis](analysis)
+- [Modification Analysis](assets)
+- [Performance Trends](performance_trends)
+- [Sales Analysis](sales_analysis)
+- [Data Import](sql_load)
+
+
+
 ### Information
+*Author - Gareth Kwok*
+
+*LinkedIn - https://www.linkedin.com/in/gkhk3/*
