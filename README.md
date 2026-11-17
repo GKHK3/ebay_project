@@ -91,7 +91,7 @@ The dashboard focuses on:
 ![Dashboard3 Listing Price and Views](assets/dashboard3.jpg)
 ![Dashboard4 When are customers interested](assets/dashboard4.jpg)
 ![Dashboard5 Views after modification](assets/dashboard5.jpg)
-
+[*Click here for dashboard*](ebay_dashboard2.pbix)
 ## 7. Key Findings
 
 
