@@ -2,7 +2,7 @@
 
 
 ### 1. Project Overview
-Looking into two products I listed on Ebay (Product A and Product B), I compare and delve into each listing using daily performance and listing modification records.
+Looking into two products I listed on eBay (Product A and Product B), I compare and delve into each listing using daily performance and listing modification records.
 
 The objective is to understand how modifications to product listings, pricing and sales activity influence customer engagement and listing performance.
 
@@ -23,7 +23,7 @@ _____
 _____
 **Excel / CSV :** Data collection, storage and organization
 _____
-**GitHub :** Project doccumentation and version control
+**GitHub :** Project documentation and version control
 
 ### 4. Dataset Description 
 Two main datasets:
@@ -58,9 +58,9 @@ Both were used interwindingly to investigate relationships between listing modif
 * Calculating average views and watchers by weekday.
 * Comparing Product A and Product B.
 * Calculating customer engagement using watchers relative to views.
-* Identifying listing modifications and measuring p listing modifications and measuring p*erformance before and after changes.
-* Comparing average views and watchers in the seven days before and after modifications.
-* Investigating changes in listing performance following sales.
+* Identifying listing modificationsand measuring performance before and after changes.
+* Comparing average views and watchers over seven-day periods before and after modifications.
+* Evaluating engagement changes following sales.
 
 The analysis uses PostgreSQL queries to transform the raw data into datasets suitable for visualisation.
 
@@ -86,11 +86,11 @@ The dashboard focuses on:
 
 ## 7 Key Findings
 
-* Overall Product A had more views and watchers on the listing but Product B had a higher engagement rate. However in terms of sales both had 1.
+* Product A generated higher overall traffic and watcher volume. However, Product B achieved a higher watcher-to-view ratio, suggesting stronger relative engagement despite receiving fewer views.
 
 * It was not clear if views was increasing as price was decreasing. Regardless, views was stable with sudden increases. This could be an anomaly or due to certain changes.
 
-* Disregarding some of the anomolies the most active days for views were Thursday, Saturday and Monday.
+* Disregarding some of the anomalies the most active days for views were Thursday, Saturday and Monday.
 
 * Overall changes were an impact on views. Making some sort of change seemed to increase average views even if slightly. The biggest factors were price change and sales. After the first sale views shot up and it brought in the most views recorded in a single day, 11 views.
 
@@ -115,4 +115,12 @@ This project demonstrates the use of SQL and Power BI to investigate e-commerce 
 By combining daily performance records with listing modification data, the project explores how changes in pricing, listing activity and sales relate to customer engagement.
 
 It also demonstrates the process of collecting, structuring, analysing and visualising data to support data-driven decision-making.
+### Folder Description
+* **analysis/**   -   General exploratory analysis
+* **assets/**   - Dashboard screenshots and project images
+* **modification_impact/** - SQL analysing listing changes
+* **performance_trends/**  - Views and watcher trends
+* **sales_analysis/**  -  Sales-related analysis
+* **sql_load/**   -  Data loading and preparation
+
 ### Information
