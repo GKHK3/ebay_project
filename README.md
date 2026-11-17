@@ -181,29 +181,33 @@ It includes:
 | Average Views | Total views / number of observations |
 
 
-## SQL Analysis
 
-The project uses PostgreSQL to investigate
-product performance, customer engagement
-and listing optimisation.
+## 6. SQL Analysis
+
+The project uses PostgreSQL to analyse product
+performance, customer engagement and listing
+optimisation.
+
+The SQL queries are organised into the following
+categories:
 
 | Analysis | Description |
 |---|---|
-| Product Comparison | Compares views, watchers and sales |
-| Engagement Analysis | Calculates product engagement rates |
-| Modification Impact | Compares performance before and after changes |
-| Performance Trends | Investigates weekday performance |
-| Sales Analysis | Examines views around recorded sales |
+| Product Comparison | Compares performance between Product A and B |
+| Engagement Analysis | Calculates views and watcher engagement |
+| Modification Impact | Evaluates performance before and after listing changes |
+| Performance Trends | Analyses daily and weekday trends |
+| Sales Analysis | Investigates the relationship between sales and views |
 | Data Import | Loads CSV data into PostgreSQL |
 
 ### SQL Files
 
-- [Product Analysis](analysis)
-- [Modification Analysis](assets)
-- [Performance Trends](performance_trends)
-- [Sales Analysis](sales_analysis)
-- [Data Import](sql_load)
-
+- [Product Comparison](analysis/)
+- [Engagement Analysis](analysis/)
+- [Modification Impact](modification_impact/)
+- [Performance Trends](performance_trends/)
+- [Sales Analysis](sales_analysis/)
+- [Data Import](sql_load/)
 
 
 ### Information
