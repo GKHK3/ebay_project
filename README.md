@@ -94,13 +94,101 @@ The dashboard focuses on:
 
 ## 7. Key Findings
 
-* Product A generated higher overall traffic and watcher volume. However, Product B achieved a higher watcher-to-view ratio, suggesting stronger relative engagement despite receiving fewer views.
 
-* It was not clear if views was increasing as price was decreasing. Regardless, views was stable with sudden increases. This could be an anomaly or due to certain changes.
+### 1. Product Performance
 
-* Disregarding some of the anomalies the most active days for views were Thursday, Saturday and Monday.
+Product A generated more views than Product B,
+while Product B achieved a higher engagement rate.
 
-* Overall changes were an impact on views. Making some sort of change seemed to increase average views even if slightly. The biggest factors were price change and sales. After the first sale views shot up and it brought in the most views recorded in a single day, 11 views.
+**Evidence:**
+
+![Total Views](assets/keyfindings1_totalviews.jpg)
+![Engagement Rate](assets/keyfindings1_engagementrate.jpg)
+
+**Business implication:**
+Higher traffic does not necessarily translate
+into higher customer engagement. Improving
+listing content and product presentation
+may help increase customer interaction.
+
+**Limitation:**
+The comparison is based on only two products.
+
+
+
+### 2. Listing Modifications
+
+The impact of listing modifications varied
+depending on the type of change.
+
+**Evidence:**
+![Sales after modification](assets\keyfindings2_salesaftermod.jpg)
+
+**Business implication:**
+Listing changes should be evaluated individually
+to identify which modifications show the
+most promising results.
+
+**Limitation:**
+Other factors may have influenced traffic
+during the observation periods.
+
+
+
+### 3. Pricing Analysis
+
+Price reductions were followed by increases
+in views and watchers in some observations.
+
+**Evidence:**
+![Views after price reduction](assets\keyfindings3_viewsafterpricereduc.jpg)
+**Business implication:**
+Pricing adjustments may be worth testing
+as part of a listing optimisation strategy.
+
+**Limitation:**
+The observations do not establish that
+price reductions directly caused the
+increase in traffic.
+
+
+
+### 4. Weekly Performance
+
+Thursday, Saturday and Monday were among
+the more active days for listing traffic.
+
+**Evidence:**
+![views by weekday](assets\keyfindings4_viewsbyweekday.jpg)
+
+**Business implication:**
+Identifying periods of higher traffic may
+help inform the timing of future listing
+updates and promotional activities.
+
+**Limitation:**
+The observation period may be too short
+to establish consistent weekly patterns.
+
+
+### 5. Sales Activity
+
+An increase in views was observed following
+a recorded sale.
+
+**Evidence:**
+![views after sale](assets\keyfindings4_viewsbyweekday.jpg)
+
+**Business implication:**
+Further analysis could help determine whether
+sales activity is associated with changes
+in listing traffic.
+
+**Limitation:**
+The small number of recorded sales makes
+it difficult to establish a reliable pattern.
+
+
 
 ### 8. Limitations & Future Improvements
 
