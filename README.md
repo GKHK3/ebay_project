@@ -270,7 +270,7 @@ It includes:
 
 
 
-## 6. SQL Analysis
+## SQL Analysis
 
 The project uses PostgreSQL to analyse product
 performance, customer engagement and listing
