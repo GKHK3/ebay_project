@@ -122,7 +122,7 @@ The impact of listing modifications varied
 depending on the type of change.
 
 **Evidence:**
-![Sales after modification](assets\keyfindings2_salesaftermod.jpg)
+![Sales after modification](assets/keyfindings2_salesaftermod.jpg)
 
 **Business implication:**
 Listing changes should be evaluated individually
@@ -141,7 +141,7 @@ Price reductions were followed by increases
 in views and watchers in some observations.
 
 **Evidence:**
-![Views after price reduction](assets\keyfindings3_viewsafterpricereduc.jpg)
+![Views after price reduction](assets/keyfindings3_viewsafterpricereduc.jpg)
 **Business implication:**
 Pricing adjustments may be worth testing
 as part of a listing optimisation strategy.
@@ -159,7 +159,7 @@ Thursday, Saturday and Monday were among
 the more active days for listing traffic.
 
 **Evidence:**
-![views by weekday](assets\keyfindings4_viewsbyweekday.jpg)
+![views by weekday](assets/keyfindings4_viewsbyweekday.jpg)
 
 **Business implication:**
 Identifying periods of higher traffic may
@@ -177,7 +177,7 @@ An increase in views was observed following
 a recorded sale.
 
 **Evidence:**
-![views after sale](assets\keyfindings4_viewsbyweekday.jpg)
+![views after sale](assets/keyfindings4_viewsbyweekday.jpg)
 
 **Business implication:**
 Further analysis could help determine whether
