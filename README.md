@@ -2,7 +2,7 @@
 
 
 ### 1. Project Overview
-Looking into two products I listed on eBay (Product A and Product B), I compare and delve into each listing using daily performance and listing modification records.
+Looking into two products I listed on eBay (Product A and Product B) Selling Japanese products in the UK, I compare and delve into each listing using daily performance and listing modification records.
 
 The objective is to understand how modifications to product listings, pricing and sales activity influence customer engagement and listing performance.
 
